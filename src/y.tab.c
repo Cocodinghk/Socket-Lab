@@ -469,8 +469,8 @@ static const yytype_int8 yyrhs[] =
 static const yytype_uint8 yyrline[] =
 {
        0,   113,   113,   114,   117,   123,   127,   156,   157,   160,
-     163,   171,   175,   187,   191,   195,   200,   207,   222,   224,
-     226
+     163,   171,   175,   187,   191,   195,   200,   207,   223,   225,
+     227
 };
 #endif
 
@@ -1500,24 +1500,24 @@ yyreduce:
 	YPRINTF("request_Header:\n%s\n%s\n",(yyvsp[(1) - (7)].str),(yyvsp[(5) - (7)].str));
     strcpy(parsing_request->headers[parsing_request->header_count].header_name, (yyvsp[(1) - (7)].str));
 	strcpy(parsing_request->headers[parsing_request->header_count].header_value, (yyvsp[(5) - (7)].str));
-	parsing_request->headers = (Request_header *) realloc(parsing_request->headers, sizeof(Request_header)*(parsing_request->header_count + 1));
 	parsing_request->header_count++;
+	parsing_request->headers = (Request_header *) realloc(parsing_request->headers, sizeof(Request_header)*(parsing_request->header_count + 1));
 }
     break;
 
   case 18:
-#line 222 "src/parser.y"
+#line 223 "src/parser.y"
     {
 }
     break;
 
   case 19:
-#line 224 "src/parser.y"
+#line 225 "src/parser.y"
     {}
     break;
 
   case 20:
-#line 226 "src/parser.y"
+#line 227 "src/parser.y"
     {
 	YPRINTF("parsing_request: Matched Success.\n");
 	return SUCCESS;
@@ -1740,7 +1740,7 @@ yyreturn:
 }
 
 
-#line 231 "src/parser.y"
+#line 232 "src/parser.y"
 
 
 /* C code */

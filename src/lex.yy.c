@@ -846,7 +846,7 @@ YY_RULE_SETUP
 {
 	/* Rule 0: Backslash */
 
-	LPRINTF("t:backslash; \n");
+	// LPRINTF("t:backslash; \n");
 
 	/* Copy character to yylval.i*/
 	yylval.i = yytext[0];
@@ -864,7 +864,7 @@ YY_RULE_SETUP
 {
 	/* Rule 1: Slash */
 
-	LPRINTF("t:slash; \n");
+	// LPRINTF("t:slash; \n");
 
 	/* Copy character to yylval.i*/
 	yylval.i = yytext[0];
@@ -883,7 +883,7 @@ YY_RULE_SETUP
 {
 	/* Rule 2: CRLF */
 
-	LPRINTF("t:crlf; \n");
+	// LPRINTF("t:crlf; \n");
 
 	/*
 	 * No need to communicate the value of CRLF to yacc, so no
@@ -899,7 +899,7 @@ YY_RULE_SETUP
 {
 	/* Rule 3: Space */
 
-	LPRINTF("t:sp '%s'; \n", yytext);
+	// LPRINTF("t:sp '%s'; \n", yytext);
 
 	yylval.i = yytext[0];
 
@@ -912,7 +912,7 @@ YY_RULE_SETUP
 {
 	/* Rule 4: A sequence of white spaces */
 
-	LPRINTF("t:ht; \n");
+	// LPRINTF("t:ht; \n");
 
 	/* Very important to communicate the value here! */
 	strcpy(yylval.str, yytext);
@@ -926,7 +926,7 @@ YY_RULE_SETUP
 {
 	/* Rule 5: A digit */
 
-	LPRINTF("t:digit %d; \n", atoi(yytext));
+	// LPRINTF("t:digit %d; \n", atoi(yytext));
 
 	yylval.i = atoi(yytext);
 
@@ -939,7 +939,7 @@ YY_RULE_SETUP
 {
 	/* Rule 6: A dot */
 
-	LPRINTF("t:dot; \n");
+	// LPRINTF("t:dot; \n");
 	yylval.i = '.';
 	return t_dot;
 }
@@ -950,7 +950,7 @@ YY_RULE_SETUP
 {
 	/* Rule 7: A colon */
 
-	LPRINTF("t:colon; \n");
+	// LPRINTF("t:colon; \n");
 	yylval.i = ':';
 	return t_colon;
 }
@@ -961,7 +961,7 @@ YY_RULE_SETUP
 {
 	/* Rule 8: A separator */
 
-	LPRINTF("t:separators \'%s\'\n", yytext);
+	// LPRINTF("t:separators \'%s\'\n", yytext);
 	yylval.i = yytext[0];
 	return t_separators;
 }
@@ -972,7 +972,7 @@ YY_RULE_SETUP
 {
 	/* Rule 9: A character allowed in a token */
 
-	LPRINTF("t:token_char %s\n", yytext);
+	// LPRINTF("t:token_char %s\n", yytext);
 	/*
 	 * Again, it is important to communicate the value back
 	 * Otherwise, yacc has no way to know which character matched the rule
@@ -988,7 +988,7 @@ YY_RULE_SETUP
 {
 	/* Rule 10: Linear white spaces */
 
-	LPRINTF("t:lws\n");
+	// LPRINTF("t:lws\n");
 	return t_lws;
 }
 	YY_BREAK
@@ -997,7 +997,7 @@ case 12:
 YY_RULE_SETUP
 #line 256 "src/lexer.l"
 {
-	LPRINTF("t:ctl\n");
+	// LPRINTF("t:ctl\n");
 	return t_ctl;
 }
 	YY_BREAK

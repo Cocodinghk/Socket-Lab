@@ -1,91 +1,69 @@
 #include "utils.h"
+#include "msg_response.h"
 
-char* HTTP_VERSION_ =  "HTTP/1.1";
-char* SERVER_NAME_ = "SERVER";
 
-int msg_resp(int client_sock, char* buf, int readRet){
 
-    Request *request = parse(buf, strlen(buf), client_sock);
-    int sendRet = -1;
+void get_dateStamp(char *date_stamp){
 
-    if(request == NULL) {
-        sendRet = msgResp_400(client_sock);
-        return sendRet;
+    time_t sys_time_;
+    struct tm * timeinfo;
+
+    time(&sys_time_);
+    timeinfo = localtime(&sys_time_);
+    strftime(date_stamp, DATE_STAMP_SIZE, "%a, %d %b %Y %H:%M:%S %Z", timeinfo);
+
+}
+
+void get_contentLength(char* content_length, const char* filePath){
+    struct stat state;
+    stat(filePath, &state);
+    sprintf(content_length, "%lld", state.st_size);
+
+}
+
+void get_contentType(char* content_type, const char* filePath){
+    char fileExtension[FILE_EXTENSION_SIZE];
+    get_fileExtension(fileExtension, filePath);
+
+    if (!strcmp(fileExtension, "html")) strcpy(content_type, "text/html");
+    else if (!strcmp(fileExtension, "gif")) strcpy(content_type, "image/gif");
+    else if (!strcmp(fileExtension, "jpeg")) strcpy(content_type, "image/jpeg");
+    else if (!strcmp(fileExtension, "css")) strcpy(content_type, "text/css");
+    else if (!strcmp(fileExtension, "png")) strcpy(content_type, "image/png");
+    else strcpy(content_type, "application/octet-stream");
+
+}
+
+void get_fileExtension(char* fileExtention, const char *filePath){
+    int filePathLen = strlen(filePath);
+    int cnt = filePathLen - 1;
+
+    while(cnt + 1){
+        int tmp_index = filePathLen - 1;
+        if(filePath[cnt] == '.'){
+            strncpy(fileExtention, filePath + (filePathLen - tmp_index) + 1, tmp_index - 1);
+            return;
         }
-
-    int reqType = getReqType(request->http_method);
-
-    switch (reqType){
-        case GET: 
-            sendRet = msgResp_ECHO(client_sock, buf, readRet);
-            break;
-        case POST: 
-            sendRet = msgResp_ECHO(client_sock, buf, readRet);
-            break;
-        case HEAD: 
-            sendRet = msgResp_ECHO(client_sock, buf, readRet); 
-            break;
-        case MALFORMED: 
-            sendRet = msgResp_501(client_sock);
-            break;
-        default: break;
+        cnt --;
     }
+}
+
+void get_lastModified(char* last_modified, const char* filePath){
+    struct stat st;
+    struct tm *curr_gmt_time = NULL;
+    stat(filePath, &st);
+    curr_gmt_time = gmtime(&st.st_mtime);
+    strftime(last_modified, LAST_MODIFIED_SIZE, "%a, %d %b %Y %H:%M:%S %Z", curr_gmt_time);
     
-    free(request->headers);
-    free(request);
-    return sendRet;
 }
 
-int getReqType(char* reqType){
-    if(!strcmp(reqType, "GET")){
-        return GET;
-    }
-    else if(!strcmp(reqType, "POST")){       
-        return POST;
-    } 
-    else if(!strcmp(reqType, "HEAD")){
-        return HEAD;
-    }
-    else{
-        return MALFORMED;
-    }
-}
-
-
-int msgResp_501(int client_sock)
-{
-    char msgResp[1024];
-    strcat(msgResp, HTTP_VERSION_);
-    strcat(msgResp, " 501 Not Implemented\r\n\r\n");
-    int sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
-    return sendRet;
-}
-
-int msgResp_400(int client_sock)
-{
-    char msgResp[1024];
-    strcat(msgResp, HTTP_VERSION_);
-    strcat(msgResp, " 400 Bad request\r\n");
-    int sendRet = send(client_sock, msgResp, strlen(msgResp),0);
-    return sendRet;
-}
-
-int msgResp_ECHO(int client_sock, char* buf, int readRet){
-    int sendRet = send(client_sock, buf, strlen(buf), 0);
-    return sendRet;
-}
-
-int msgResp_GET(int client_sock, Request* request){
-
-    return 0;
-}
-
-int msgResp_POST(int client_sock, Request* request){
-
-    return 0;
-}
-
-int msgResp_HEAD(int client_sock, Request* request){
-
-    return 0;
+void get_connectionType(char* connection_type, Request * request){
+    char header[HEADER_SIZE];
+    strcpy(header, "Connection");
+    for (int i = 0; i < request->header_count; i++)
+        if (!strcmp(request->headers[i].header_name, header))
+        {
+            strcpy(connection_type, request->headers[i].header_value);
+            return;
+        }
 }
