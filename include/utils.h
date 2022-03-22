@@ -11,6 +11,7 @@
 
 
 int get_reqType(char* reqType);
+int get_state_code_type(char* state_code);
 void get_contentLength(char* content_length, const char* filePath);
 void get_contentType(char* content_type, const char* filePath);
 void get_fileExtension(char* fileExtention, const char *filePath);

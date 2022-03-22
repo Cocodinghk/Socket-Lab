@@ -22,7 +22,7 @@
 #include "msg_response.h"
 
 #define ECHO_PORT 9999
-#define BUF_SIZE 4096
+#define BUF_SIZE 8192
 
 int close_socket(int sock)
 {

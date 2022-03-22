@@ -24,6 +24,10 @@
         "__string": "c",
         "string": "c",
         "string_view": "c",
-        "msg_response.h": "c"
+        "msg_response.h": "c",
+        "log.h": "c",
+        "random": "c",
+        "__threading_support": "c",
+        "stdio.h": "c"
     }
 }

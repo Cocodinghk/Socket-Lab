@@ -1,9 +1,11 @@
 #include "msg_response.h"
+#include "log.h"
 
 #define LPRINTF(...) printf(__VA_ARGS__)
 
 char* HTTP_VERSION_ =  "HTTP/1.1";
 char* SERVER_NAME_ = "SERVER";
+
 
 /*
     主方法
@@ -16,8 +18,10 @@ int msg_resp(int client_sock, char* buf, int readRet){
     
     if(request == NULL) {
         sendRet = msgResp_400(client_sock);
+        error_log("400", request);
         return sendRet;
         }
+    
 
     int reqType = get_reqType(request->http_method);
 
@@ -26,36 +30,23 @@ int msg_resp(int client_sock, char* buf, int readRet){
             sendRet = msgResp_GET(client_sock, request);
             break;
         case POST: 
-            sendRet = msgResp_POST(client_sock, request);
+            sendRet = msgResp_ECHO(client_sock, buf, readRet, request); 
             break;
         case HEAD: 
-            sendRet = msgResp_HEAD(client_sock, request); 
+            sendRet = msgResp_HEAD(client_sock, request);
             break;
-        case MALFORMED: 
+        case NOTIMPLEMENTED: 
             sendRet = msgResp_501(client_sock);
+            error_log("501", request);
             break;
         default: break;
     }
-    
+
     free(request->headers);
     free(request);
     return sendRet;
 }
 
-int get_reqType(char* reqType){
-    if(!strcmp(reqType, "GET")){
-        return GET;
-    }
-    else if(!strcmp(reqType, "POST")){       
-        return POST;
-    } 
-    else if(!strcmp(reqType, "HEAD")){
-        return HEAD;
-    }
-    else{
-        return MALFORMED;
-    }
-}
 
 /*
     方法响应
@@ -85,10 +76,15 @@ int msgResp_GET(int client_sock, Request* request){
     strcpy(filePath, request->http_uri);
     if(access(filePath, F_OK) == -1){
         sendRet = msgResp_404(client_sock);
+        error_log("404", request);
         return sendRet;
     }
     
-
+    if(strcmp(request->http_version, HTTP_VERSION_)) {
+        sendRet = msgResp_505(client_sock);
+        error_log("505", request);
+        return sendRet;
+    }
     
 
     int fp = open(filePath, O_RDONLY);
@@ -134,6 +130,7 @@ int msgResp_GET(int client_sock, Request* request){
     strcat(msgResp, body);
 
     sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
+    access_log(request, sendRet);
 
     return sendRet;
 }
@@ -160,10 +157,15 @@ int msgResp_POST(int client_sock, Request* request){
     strcpy(filePath, request->http_uri);
     if(access(filePath, F_OK) == -1){
         sendRet = msgResp_404(client_sock);
+        error_log("404", request);
         return sendRet;
     }
     
-
+    if(strcmp(request->http_version, HTTP_VERSION_)) {
+        sendRet = msgResp_505(client_sock);
+        error_log("505", request);
+        return sendRet;
+    }
     
 
     int fp = open(filePath, O_RDONLY);
@@ -209,6 +211,7 @@ int msgResp_POST(int client_sock, Request* request){
     strcat(msgResp, body);
 
     sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
+    access_log(request, sendRet);
 
     return sendRet;
 }
@@ -233,10 +236,15 @@ int msgResp_HEAD(int client_sock, Request* request){
     strcpy(filePath, request->http_uri);
     if(access(filePath, F_OK) == -1){
         sendRet = msgResp_404(client_sock);
+        error_log("404", request);
         return sendRet;
     }
 
-
+    if(strcmp(request->http_version, HTTP_VERSION_)) {
+        sendRet = msgResp_505(client_sock);
+        error_log("505", request);
+        return sendRet;
+    }
 
     strcat(msgResp, HTTP_VERSION_);
     strcat(msgResp, " 200 OK\r\n");
@@ -267,13 +275,17 @@ int msgResp_HEAD(int client_sock, Request* request){
     strcat(msgResp, "\r\n");
 
     sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
-
+    access_log(request, sendRet);
     return sendRet;
 }
 
 
 
-int msgResp_ECHO(int client_sock, char* buf, int readRet){
+int msgResp_ECHO(int client_sock, char* buf, int readRet, Request * request){
+    if(strcmp(request->http_version, HTTP_VERSION_)) {
+        int sendRet = msgResp_505(client_sock);
+        return sendRet;
+    }
     int sendRet = send(client_sock, buf, strlen(buf), 0);
     return sendRet;
 }
@@ -291,6 +303,7 @@ int msgResp_501(int client_sock){
     strcat(msgResp, HTTP_VERSION_);
     strcat(msgResp, " 501 Not Implemented\r\n\r\n");
     int sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
+    
     return sendRet;
 }
 
@@ -314,6 +327,14 @@ int msgResp_500(int client_sock){
     char msgResp[RESPONSE_SIZE];
     strcat(msgResp, HTTP_VERSION_);
     strcat(msgResp, " 500 Internal Server Error\r\n\r\n");
+    int sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
+    return sendRet;
+}
+
+int msgResp_505(int client_sock){
+    char msgResp[RESPONSE_SIZE];
+    strcat(msgResp, HTTP_VERSION_);
+    strcat(msgResp, " 505 HTTP Version Not Supported\r\n\r\n");
     int sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
     return sendRet;
 }

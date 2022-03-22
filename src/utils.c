@@ -67,3 +67,35 @@ void get_connectionType(char* connection_type, Request * request){
             return;
         }
 }
+
+int get_reqType(char* reqType){
+    if(!strcmp(reqType, "GET")){
+        return GET;
+    }
+    else if(!strcmp(reqType, "POST")){       
+        return POST;
+    } 
+    else if(!strcmp(reqType, "HEAD")){
+        return HEAD;
+    }
+    else{
+        return NOTIMPLEMENTED;
+    }
+}
+
+
+int get_state_code_type(char* state_code){
+    if(!strcmp(state_code, "400")){
+        return _400_;
+    }
+    else if(!strcmp(state_code, "404")){       
+        return _404_;
+    } 
+    else if(!strcmp(state_code, "501")){
+        return _501_;
+    }
+    else if(!strcmp(state_code, "505")){
+        return _505_;
+    }
+    else return NOTIMPLEMENTED;
+}
