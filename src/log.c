@@ -6,7 +6,7 @@ char* ERROR_LOG_PATH = "./log/error_log.txt";
 
 void access_log(Request * request, int sendRet){
 
-    char log_row[LOG_ROW_SIZE];
+    char log_row[LOG_ROW_SIZE] = "";
 
     time_t cur_t;
     time(&cur_t);
@@ -25,7 +25,7 @@ void access_log(Request * request, int sendRet){
     strcat(log_row, "200");
     strcat(log_row, " ");
 
-    char sendRet_str[300];
+    char sendRet_str[300] = "";
     sprintf(sendRet_str, "%d", sendRet);
     strcat(log_row, sendRet_str);
 
@@ -40,7 +40,7 @@ void access_log(Request * request, int sendRet){
 void error_log(char* state_code_str, Request * request){
     int state_code = get_state_code_type(state_code_str);
     FILE *error_log_file = fopen(ERROR_LOG_PATH, "a+");
-    char log_row[LOG_ROW_SIZE];
+    char log_row[LOG_ROW_SIZE] = "";
 
     pid_t pid;
     pid = getpid();
@@ -57,13 +57,13 @@ void error_log(char* state_code_str, Request * request){
     strcat(log_row, " ");
 
     strcat(log_row, "[pid ");
-    char pid_str[30];
+    char pid_str[30] = "";
     sprintf(pid_str, "%d", pid);
     strcat(log_row, pid_str);
 
     strcat(log_row, ":tid ");
-    char tid_str[30];
-    sprintf(tid_str, "%d", tid);
+    char tid_str[30] = "";
+    sprintf(tid_str, "%lld", (long long) tid);
     strcat(log_row, tid_str);
     strcat(log_row, "] ");
 
@@ -78,7 +78,7 @@ void error_log(char* state_code_str, Request * request){
             strcat(log_row, "404：File Not Found File does not exist: ");
             strcat(log_row, request->http_uri);
             break;
-        case _501_:
+        case _501_: 
             strcat(log_row, "501：Not Implemented");
             break;
         case _505_:

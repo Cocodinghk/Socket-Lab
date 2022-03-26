@@ -22,7 +22,7 @@ void get_contentLength(char* content_length, const char* filePath){
 }
 
 void get_contentType(char* content_type, const char* filePath){
-    char fileExtension[FILE_EXTENSION_SIZE];
+    char fileExtension[FILE_EXTENSION_SIZE] = "";
     get_fileExtension(fileExtension, filePath);
 
     if (!strcmp(fileExtension, "html")) strcpy(content_type, "text/html");
@@ -35,17 +35,20 @@ void get_contentType(char* content_type, const char* filePath){
 }
 
 void get_fileExtension(char* fileExtention, const char *filePath){
-    int filePathLen = strlen(filePath);
-    int cnt = filePathLen - 1;
-
-    while(cnt + 1){
-        int tmp_index = filePathLen - 1;
-        if(filePath[cnt] == '.'){
-            strncpy(fileExtention, filePath + (filePathLen - tmp_index) + 1, tmp_index - 1);
-            return;
-        }
-        cnt --;
+    
+    
+    int length = strlen(filePath);
+    int i = length - 1;
+    while(i){
+        if (filePath[i] == '.' )
+            break;
+        i--;
     }
+    if(i >= 0)
+        strcpy(fileExtention, filePath + i + 1);
+    else
+        strcpy(fileExtention, "\0");
+
 }
 
 void get_lastModified(char* last_modified, const char* filePath){
@@ -58,7 +61,7 @@ void get_lastModified(char* last_modified, const char* filePath){
 }
 
 void get_connectionType(char* connection_type, Request * request){
-    char header[HEADER_SIZE];
+    char header[HEADER_SIZE] = "";
     strcpy(header, "Connection");
     for (int i = 0; i < request->header_count; i++)
         if (!strcmp(request->headers[i].header_name, header))
