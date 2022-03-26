@@ -18,10 +18,9 @@ CFLAGS   := -g -Wall
 # DEPS = parse.h y.tab.hsendRet
 
 default: all
-all : liso_server liso_client example
+all : liso_server echo_client
 
-example: $(OBJ)
-	$(CC) $^ -o $@
+
 
 $(SRC_DIR)/lex.yy.c: $(SRC_DIR)/lexer.l
 	flex -o $@ $^
@@ -36,8 +35,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c $(OBJ_DIR)
 
 liso_server: $(OBJ2)
 	$(CC) -Werror $^ -o $@
-
-liso_client: $(OBJ_DIR)/liso_client.o
+echo_client: $(OBJ_DIR)/liso_client.o
 	$(CC) -Werror $^ -o $@
 
 $(OBJ_DIR):

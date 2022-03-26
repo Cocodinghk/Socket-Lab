@@ -87,14 +87,18 @@ int main(int argc, char* argv[])
 
         while((readret = recv(client_sock, buf, BUF_SIZE, 0)) >= 1)
         {
+            
+            int sendret = msg_resp(client_sock, buf, readret);
 
-            if (msg_resp(client_sock, buf, readret) < 0)
+            if (sendret == -1)
             {
                 close_socket(client_sock);
                 close_socket(sock);
                 fprintf(stderr, "Error sending to client.\n");
                 return EXIT_FAILURE;
             }
+            
+            
             memset(buf, 0, BUF_SIZE);
         } 
 
