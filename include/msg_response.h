@@ -27,8 +27,10 @@
 #define HEADER_SIZE 32
 #define BODY_SIZE 4096
 
+int msgs_resp(int client_sock, char* buf, int readRet);
+int msg_resp(int client_sock, char* buf, int readRet, Request *request);
 
-int msg_resp(int client_sock, char* buf, int readRet);
+
 int msgResp_400(int client_sock);
 int msgResp_500(int client_sock);
 int msgResp_501(int client_sock);

@@ -20,9 +20,10 @@
 #include <netinet/in.h>
 #include <netinet/ip.h>
 #include <fcntl.h>
+#include "parse.h"
 
 #define ECHO_PORT 9999
-#define BUF_SIZE 8192
+
 
 int main(int argc, char* argv[])
 {
@@ -73,11 +74,15 @@ int main(int argc, char* argv[])
     send(sock, msg , strlen(msg), 0);
 
     int bytes_received;
-    if((bytes_received = recv(sock, buf, BUF_SIZE, 0)) > 1)
-    {
+    int cnt = 29;
+    while(1){
+        printf("======================================\n");
+        bytes_received = recv(sock, buf, BUF_SIZE, 0);
         buf[bytes_received] = '\0';
-        fprintf(stdout, "Received %s", buf);
-    }        
+        fprintf(stdout, "Received\n%s", buf);
+        printf("%d\n\n", cnt);
+        strcpy(buf, "\0");
+    }
 
     freeaddrinfo(servinfo);
     close(sock);    

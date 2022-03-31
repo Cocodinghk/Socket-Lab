@@ -28,6 +28,12 @@
         "log.h": "c",
         "random": "c",
         "__threading_support": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "in.h": "c",
+        "stdlib.h": "c",
+        "system_error": "c",
+        "unordered_map": "c",
+        "bitset": "c",
+        "locale": "c"
     }
 }
