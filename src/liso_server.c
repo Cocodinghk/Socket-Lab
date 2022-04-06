@@ -22,7 +22,7 @@
 #include "msg_response.h"
 
 #define ECHO_PORT 9999
-#define BUF_SIZE 8192
+
 
 int close_socket(int sock)
 {
@@ -87,10 +87,12 @@ int main(int argc, char* argv[])
 
         while((readret = recv(client_sock, buf, BUF_SIZE, 0)) >= 1)
         {
+            strcat(buf, "\r\n");
+            readret += 2;
             
-            int sendret = msg_resp(client_sock, buf, readret);
+            int sendrets = msgs_resp(client_sock, buf, readret);
 
-            if (sendret == -1)
+            if (sendrets < 0)
             {
                 close_socket(client_sock);
                 close_socket(sock);

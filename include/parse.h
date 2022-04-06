@@ -7,6 +7,8 @@
 
 
 #define SUCCESS 0
+#define REQUESTS_NUM 100
+#define BUF_SIZE 81920
 
 //Header field
 typedef struct
@@ -23,13 +25,21 @@ typedef struct
 	char http_uri[4096];
 	Request_header *headers;
 	int header_count;
+	int format_correctness;
 } Request;
 
-Request* parse(char *buffer, int size,int socketFd);
+typedef struct
+{
+	Request *requests_;
+	int request_count;
+} Requests;
+
+
+Requests* parse(char *buffer, int size,int socketFd);
 
 // functions decalred in parser.y
 int yyparse();
-void set_parsing_options(char *buf, size_t i, Request *request);
+void set_parsing_options(char *buf, size_t i, Requests *requests);
 
 
 #endif
