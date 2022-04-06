@@ -217,7 +217,7 @@ t_sps: t_sp t_sps{};
 
 request_line: token t_sp text t_sp text t_crlf {
 	YPRINTF("request_Line:\n%s\n%s\n%s\n",$1, $3,$5);
-	// printf("Got request_line!\n");
+	printf("Got request_line!\n");
 	int request_num = parsing_requests->request_count - 1;
     strcpy(parsing_requests->requests_[request_num].http_method, $1);
 	strcpy(parsing_requests->requests_[request_num].http_uri, $3);
@@ -233,7 +233,7 @@ request_line: token t_sp text t_sp text t_crlf {
 
 request_header: token ows t_colon ows text ows t_crlf {
 	YPRINTF("request_Header:\n%s\n%s\n",$1,$5);
-	// printf("Got request_header!\n");
+	printf("Got request_header!\n");
 	int request_num = parsing_requests->request_count - 1;
     strcpy(parsing_requests->requests_[request_num].headers[parsing_requests->requests_[request_num].header_count].header_name, $1);
 	strcpy(parsing_requests->requests_[request_num].headers[parsing_requests->requests_[request_num].header_count].header_value, $5);
@@ -246,11 +246,9 @@ request_header: token ows t_colon ows text ows t_crlf {
 ;
 
 request_headers: request_headers request_header{
-	// printf("Got request_headers!\n");
+	printf("Got request_headers!\n");
 };
-|{
-	// printf("Got request_headers!\n");
-	};
+|{printf("Got request_headers!\n");};
 
 
 
@@ -267,10 +265,12 @@ request: request_line request_headers t_crlf{
 
 requests : requests request{
 	YPRINTF("parsing_requests: Matched Success.\n");
-// 	printf("1. Requests++!\n");
+	printf("1. Requests++!\n");
 };
-|request{
+|request
+{
 	YPRINTF("parsing_requests: Matched Success.\n");
+	printf("2. Requests++2!\n");
 };
 
 requests_ : requests t_crlf{

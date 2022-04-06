@@ -74,12 +74,13 @@ int main(int argc, char* argv[])
     send(sock, msg , strlen(msg), 0);
 
     int bytes_received;
-    int cnt = 1;
-    while(cnt--){
+    int cnt = 29;
+    while(1){
         printf("======================================\n");
         bytes_received = recv(sock, buf, BUF_SIZE, 0);
         buf[bytes_received] = '\0';
         fprintf(stdout, "Received\n%s", buf);
+        printf("%d\n\n", cnt);
         strcpy(buf, "\0");
     }
 

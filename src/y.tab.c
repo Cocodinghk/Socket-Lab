@@ -481,7 +481,7 @@ static const yytype_uint16 yyrline[] =
        0,   114,   114,   115,   118,   124,   128,   157,   158,   161,
      164,   172,   176,   188,   192,   196,   200,   201,   218,   226,
      227,   228,   229,   230,   231,   232,   234,   243,   244,   245,
-     248,   251,   258,   268,   272,   276
+     248,   251,   256,   266,   270,   276
 };
 #endif
 
@@ -1544,7 +1544,7 @@ yyreduce:
 #line 218 "src/parser.y"
     {
 	YPRINTF("request_Line:\n%s\n%s\n%s\n",(yyvsp[(1) - (6)].str), (yyvsp[(3) - (6)].str),(yyvsp[(5) - (6)].str));
-	// printf("Got request_line!\n");
+	printf("Got request_line!\n");
 	int request_num = parsing_requests->request_count - 1;
     strcpy(parsing_requests->requests_[request_num].http_method, (yyvsp[(1) - (6)].str));
 	strcpy(parsing_requests->requests_[request_num].http_uri, (yyvsp[(3) - (6)].str));
@@ -1591,7 +1591,7 @@ yyreduce:
 #line 234 "src/parser.y"
     {
 	YPRINTF("request_Header:\n%s\n%s\n",(yyvsp[(1) - (7)].str),(yyvsp[(5) - (7)].str));
-	// printf("Got request_header!\n");
+	printf("Got request_header!\n");
 	int request_num = parsing_requests->request_count - 1;
     strcpy(parsing_requests->requests_[request_num].headers[parsing_requests->requests_[request_num].header_count].header_name, (yyvsp[(1) - (7)].str));
 	strcpy(parsing_requests->requests_[request_num].headers[parsing_requests->requests_[request_num].header_count].header_value, (yyvsp[(5) - (7)].str));
@@ -1618,19 +1618,17 @@ yyreduce:
   case 30:
 #line 248 "src/parser.y"
     {
-	// printf("Got request_headers!\n");
+	printf("Got request_headers!\n");
 }
     break;
 
   case 31:
 #line 251 "src/parser.y"
-    {
-	// printf("Got request_headers!\n");
-	}
+    {printf("Got request_headers!\n");}
     break;
 
   case 32:
-#line 258 "src/parser.y"
+#line 256 "src/parser.y"
     {
 	YPRINTF("parsing_request: Matched Success.\n");
 	parsing_requests->request_count ++;
@@ -1643,17 +1641,18 @@ yyreduce:
     break;
 
   case 33:
-#line 268 "src/parser.y"
+#line 266 "src/parser.y"
     {
 	YPRINTF("parsing_requests: Matched Success.\n");
-// 	printf("1. Requests++!\n");
+	printf("1. Requests++!\n");
 }
     break;
 
   case 34:
-#line 272 "src/parser.y"
+#line 271 "src/parser.y"
     {
 	YPRINTF("parsing_requests: Matched Success.\n");
+	printf("2. Requests++2!\n");
 }
     break;
 
@@ -1666,7 +1665,7 @@ yyreduce:
 
 
 /* Line 1267 of yacc.c.  */
-#line 1670 "y.tab.c"
+#line 1669 "y.tab.c"
       default: break;
     }
   YY_SYMBOL_PRINT ("-> $$ =", yyr1[yyn], &yyval, &yyloc);
