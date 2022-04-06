@@ -62,10 +62,10 @@ Requests * parse(char *buffer, int size, int socketFd) {
 		yyrestart(NULL);
 		set_parsing_options(buf, size, requests);
 		if (yyparse() == SUCCESS) {
-			printf("Successfully returned!\n\n");
+			// printf("Successfully returned!\n\n");
             return requests;
 		}
-		printf("Requests parsing failed!\n\n");
+		printf("Requests parsing failed!\n");
 		return NULL;
 	}
     //TODO Handle Malformed Requests

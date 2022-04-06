@@ -7,8 +7,8 @@
 
 
 #define SUCCESS 0
-#define REQUESTS_NUM 100
-#define BUF_SIZE 81920
+#define REQUESTS_NUM 1000
+#define BUF_SIZE 100000
 
 //Header field
 typedef struct
