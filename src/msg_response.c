@@ -17,13 +17,15 @@ int msgs_resp(int client_sock, char* buf, int readRet){
     int sendrets = 0;
 
     for(int i = 0; i < request_count - 1; i ++){
-        printf("responsing the %dth msg...\n", i + 1);
+        // printf("responsing the %dth msg...\n", i + 1);
         int sendret = msg_resp(client_sock, buf, readRet, requests->requests_ + i);
         sendrets += sendret;
-        printf("Successfully responsed the %dth msg : %d\n", i + 1, sendret);
-        for(int i = 0; i < 1000; i++)
-            for(int j = 0; j < 1000; j ++);
+        // printf("Successfully responsed the %dth msg : %d\n", i + 1, sendret);
+        // for(int i = 0; i < 1000; i++)
+        //     for(int j = 0; j < 1000; j ++);
     }
+
+    printf("Successfully responsed %d msg to client %d : %d\n", request_count - 1, client_sock, sendrets);
 
     for(int i = 0; i < request_count - 1; i ++){
         free(requests->requests_[i].headers);
@@ -92,6 +94,12 @@ int msgResp_GET(int client_sock, Request* request){
     if (!strcmp(filePath, "/")){
         strcpy(filePath, "./static_site/index.html");
     }
+    else{
+        char temp[PATH_SIZE] = "";
+        strcpy(temp, filePath);
+        strcpy(filePath, "./static_site");
+        strcat(filePath, temp);
+    };
 
     struct stat st;
     int temp = stat(filePath, &st);
@@ -162,7 +170,7 @@ int msgResp_GET(int client_sock, Request* request){
     strcat(msgResp, "\r\n");
 
     strcat(msgResp, body);
-    
+
     sendRet = send(client_sock, msgResp, strlen(msgResp), 0);
     access_log(request, sendRet);
 
