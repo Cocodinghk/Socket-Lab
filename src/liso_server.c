@@ -93,7 +93,7 @@ int main(int argc, char* argv[])
     {
         printf("\n\n-------------Start to check&select-------------\n");
         readfds = allfds;
-        ready_fd_num elec= st(maxfd + 1, &readfds, NULL, NULL, NULL);
+        ready_fd_num elec= select(maxfd + 1, &readfds, NULL, NULL, NULL);
         if(ready_fd_num < 0)
         {
             fprintf(stderr, "Error in select.\n");
