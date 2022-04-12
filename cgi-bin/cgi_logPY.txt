@@ -250,3 +250,1004 @@ Connection: Keep-alive
 
 </html>
 
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 15:00:30 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:41:18 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 321</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:12:27 GMT
+Content-Length: 705
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 15:00:30 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+        <script>
+            document.write(localStorage.getItem('callbackHTML'));
+            document.close();
+        </script>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:13:02 GMT
+Content-Length: 705
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:12:27 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+        <script>
+            document.write(localStorage.getItem('callbackHTML'));
+            document.close();
+        </script>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:27:12 GMT
+Content-Length: 705
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:13:02 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 321</p>
+            <p>Welcome!</p>
+        </div>
+        <script>
+            document.write(localStorage.getItem('callbackHTML'));
+            document.close();
+        </script>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:29:44 GMT
+Content-Length: 705
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:27:12 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 321</p>
+            <p>Welcome!</p>
+        </div>
+        <script>
+            document.write(localStorage.getItem('callbackHTML'));
+            document.close();
+        </script>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:33:06 GMT
+Content-Length: 804
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:29:44 GMT
+Connection: Keep-alive
+
+{
+    "content":
+        "<!DOCTYPE html> <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <title>Liso the Friendly Web Server</title>
+            <link rel="stylesheet" type="text/css" href="style.css" /> 
+        </head>
+
+        <body>
+            <div id="page">
+                <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+                <p>Your name is : 123</p>
+                <p>Your password is : 321</p>
+                <p>Welcome!</p>
+            </div>
+            <script>
+                document.write(localStorage.getItem('callbackHTML'));
+                document.close();
+            </script>
+        </body>
+
+    </html>"
+}
+successfully got here!
+successfully got here!
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:40:16 GMT
+Content-Length: 792
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:40:04 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+        <head>
+            <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+            <title>Liso the Friendly Web Server</title>
+            <link rel="stylesheet" type="text/css" href="style.css" /> 
+        </head>
+
+        <body>
+            <div id="page">
+                <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+                <p>Your name is : 123</p>
+                <p>Your password is : 321</p>
+                <p>Welcome!</p>
+            </div>
+            <script>
+                document.write(localStorage.getItem('callbackHTML'));
+                document.close();
+            </script>
+        </body>
+
+    </html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:42:32 GMT
+Content-Length: 814
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:40:16 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">
+        <head>
+            <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />
+            <title>Liso the Friendly Web Server</title>
+            <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> 
+        </head>
+
+        <body>
+            <div id=\"page\">
+                <img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img>
+                <p>Your name is : 123</p>
+                <p>Your password is : 321</p>
+                <p>Welcome!</p>
+            </div>
+            <script>
+                document.write(localStorage.getItem('callbackHTML'));
+                document.close();
+            </script>
+        </body>
+
+    </html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:42:50 GMT
+Content-Length: 814
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:42:32 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">
+        <head>
+            <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />
+            <title>Liso the Friendly Web Server</title>
+            <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> 
+        </head>
+
+        <body>
+            <div id=\"page\">
+                <img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img>
+                <p>Your name is : 123</p>
+                <p>Your password is : 321</p>
+                <p>Welcome!</p>
+            </div>
+            <script>
+                document.write(localStorage.getItem('callbackHTML'));
+                document.close();
+            </script>
+        </body>
+
+    </html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:43:00 GMT
+Content-Length: 814
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:42:50 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\">
+        <head>
+            <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" />
+            <title>Liso the Friendly Web Server</title>
+            <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> 
+        </head>
+
+        <body>
+            <div id=\"page\">
+                <img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img>
+                <p>Your name is : 321</p>
+                <p>Your password is : 123</p>
+                <p>Welcome!</p>
+            </div>
+            <script>
+                document.write(localStorage.getItem('callbackHTML'));
+                document.close();
+            </script>
+        </body>
+
+    </html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:45:36 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:43:00 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 321</p><p>Your password is : 123</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:47:43 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:45:36 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:48:03 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:47:43 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 321</p><p>Your password is : 123</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:49:25 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:48:03 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:49:36 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:49:25 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:49:40 GMT
+Content-Length: 579
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:49:36 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 3421</p><p>Your password is : 123</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:52:46 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:49:40 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:55:35 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:52:46 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:56:23 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:55:35 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 06:56:47 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:56:23 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:12:56 GMT
+Content-Length: 581
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 06:56:47 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:15:43 GMT
+Content-Length: 579
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:12:56 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 3321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:17:28 GMT
+Content-Length: 578
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:15:43 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:19:00 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:17:28 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:19:34 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:19:00 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:20:11 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:19:34 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:21:50 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:20:11 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:22:09 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:21:50 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:22:27 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:22:09 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:24:13 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:22:27 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:24:37 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:24:13 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:24:49 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:24:37 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:25:36 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:24:49 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:25:40 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:25:36 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:26:45 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:25:40 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:26:50 GMT
+Content-Length: 562
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:26:45 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:27:09 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:26:50 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:27:16 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:27:09 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:27:35 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:27:16 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:36:55 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:27:35 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:37:00 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:36:55 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 07:38:09 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:37:00 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:24:29 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 07:38:09 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:25:40 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:24:29 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:25:52 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:25:40 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:26:10 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:25:52 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:27:09 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:26:10 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:27:49 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:27:09 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:29:40 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:27:49 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:29:53 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:29:40 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:30:24 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:29:53 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:32:01 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:30:24 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:33:32 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:32:01 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:34:27 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:33:32 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:34:40 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:34:27 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:35:21 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:34:40 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:36:04 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:35:21 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:36:14 GMT
+Content-Length: 577
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:36:04 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div><script>document.write(localStorage.getItem('callbackHTML'));document.close();</script></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:38:46 GMT
+Content-Length: 529
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:36:14 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:38:46</p><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:39:28 GMT
+Content-Length: 534
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:38:46 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:39:28</p><p>Your name is : 123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:42:24 GMT
+Content-Length: 650
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:39:28 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : <font color="#FF0000">2022-04-12 18:42:24</font></p><p>Your name is : <font color="#FF0000">123</font></p><p>Your password is : <font color="#FF0000">321</font></p><p>Welcome, <font color="#FF0000">123</font>!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:42:26 GMT
+Content-Length: 650
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:42:24 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : <font color="#FF0000">2022-04-12 18:42:26</font></p><p>Your name is : <font color="#FF0000">123</font></p><p>Your password is : <font color="#FF0000">321</font></p><p>Welcome, <font color="#FF0000">123</font>!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:42:37 GMT
+Content-Length: 650
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:42:26 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : <font color="#FF0000">2022-04-12 18:42:37</font></p><p>Your name is : <font color="#FF0000">123</font></p><p>Your password is : <font color="#FF0000">321</font></p><p>Welcome, <font color="#FF0000">123</font>!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:43:28 GMT
+Content-Length: 650
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:42:37 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : <font color="#FF0000">2022-04-12 18:43:28</font></p><p>Your name is : <font color="#FF0000">123</font></p><p>Your password is : <font color="#FF0000">321</font></p><p>Welcome, <font color="#FF0000">123</font>!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:43:45 GMT
+Content-Length: 533
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:43:28 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:43:45</p><p>Your name is :123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:44:00 GMT
+Content-Length: 563
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:43:45 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:44:00</p><p>Your name is : <font color="#FF0000">123</font></p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:45:11 GMT
+Content-Length: 563
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:44:00 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:45:11</p><p>Your name is :<font color="red">这里是红色</font>123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:45:18 GMT
+Content-Length: 533
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:45:11 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:45:18</p><p>Your name is :123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:46:07 GMT
+Content-Length: 565
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:45:18 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:46:07</p><p>Your name is :<font color=\"red\">这里是红色</font>123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:46:28 GMT
+Content-Length: 569
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:46:07 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:46:28</p><p>Your name is :<font color=\"#FF0000\">这里是红色</font>123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:46:42 GMT
+Content-Length: 563
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:46:28 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:46:42</p><p>Your name is :<font color='red'>这里是红色</font>123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:46:54 GMT
+Content-Length: 567
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:46:42 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:46:54</p><p>Your name is :<font color='#FF0000'>这里是红色</font>123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:47:00 GMT
+Content-Length: 533
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:46:54 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"><img src=\"images/liso_header.png\" alt=\"Liso the Friendly Web Server\"></img><p>Visit time : 2022-04-12 18:47:00</p><p>Your name is :123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:47:19 GMT
+Content-Length: 460
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:47:00 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"></img><p>Visit time : 2022-04-12 18:47:19</p><p>Your name is :123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:47:33 GMT
+Content-Length: 494
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:47:19 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"></img><p>Visit time : 2022-04-12 18:47:33</p><p><font color='#FF0000'>这里是红色</font>Your name is :123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Tue, 12 Apr 2022 10:48:56 GMT
+Content-Length: 496
+Content-Type: text/html
+Last-Modified: Tue, 12 Apr 2022 10:47:33 GMT
+Connection: Keep-alive
+
+{"content" : "<!DOCTYPE html> <html xml:lang=\"en\" lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\"><head><meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\" /><title>Liso the Friendly Web Server</title><link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\" /> </head><body><div id=\"page\"></img><p>Visit time : 2022-04-12 18:48:56</p><p><font color=\"#FF0000\">这里是红色</font>Your name is :123</p><p>Your password is : 321</p><p>Welcome, 123!</p></div></body></html>"}

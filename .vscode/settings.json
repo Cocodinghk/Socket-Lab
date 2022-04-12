@@ -34,6 +34,14 @@
         "system_error": "c",
         "unordered_map": "c",
         "bitset": "c",
-        "locale": "c"
+        "locale": "c",
+        "ip.h": "c",
+        "cstdlib": "c",
+        "iosfwd": "c",
+        "string.h": "c",
+        "sstream": "c",
+        "cerrno": "c",
+        "cgi.h": "c",
+        "fcntl.h": "c"
     }
 }

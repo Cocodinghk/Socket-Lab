@@ -1,4 +1,4 @@
-#!/Users/lizian/opt/anaconda3/bin/python
+#!/Users/lizian/opt/anaconda3/bin/python 
 from os import environ
 import json
 import time
@@ -10,7 +10,7 @@ log_file_path = "./cgi-bin/cgi_logPY.txt"
 template_html_path = "./static_site/cgi_html/template.html"
 
 f = open(log_file_path, "a")
-sheet = input()
+sheet = input() #!表单变为字典，从
 sheet = eval(sheet)
 
 
@@ -19,9 +19,11 @@ print("successfully got here!", file=f)
 template_html_file = open(template_html_path, "r")
 
 
+now = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 template_html = template_html_file.read()
 template_html = template_html.replace("YourName", sheet['name'])
 template_html = template_html.replace("YourPassword", sheet['password'])
+template_html = template_html.replace("VisitTime", now)
 
 response_content = ""
 
@@ -63,6 +65,7 @@ response_content += "Keep-alive"
 response_content += "\r\n\r\n"
 
 response_content += template_html
+
 
 print(response_content, file=f)
 print(response_content)
