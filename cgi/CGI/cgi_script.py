@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/lizian/opt/anaconda3/bin/python
 #
 #   This script executes a minimal CGI test function.  Output should be valid
 #   HTML and a valid response to the user.  It is an example of a script
@@ -14,7 +14,7 @@ import cgitb
 
 cgitb.enable()
 
-print 'HTTP/1.1 200 OK\r\n',
-print 'Server: %s\r\n' % (environ['SERVER_SOFTWARE']),
+print ('HTTP/1.1 200 OK\r\n')
+print ('Server: %s\r\n' % (environ['SERVER_SOFTWARE']))
 
 cgi.test()

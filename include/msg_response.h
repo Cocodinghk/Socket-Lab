@@ -16,7 +16,7 @@
 #define _505_ 6
 
 
-#define RESPONSE_SIZE 8192
+#define RESPONSE_SIZE 819200
 #define PATH_SIZE 1024
 #define DATE_STAMP_SIZE 256
 #define CONTENT_LENGTH_SIZE 16
@@ -25,10 +25,10 @@
 #define LAST_MODIFIED_SIZE 256
 #define CONNECTION_TYPE_SIZE 32
 #define HEADER_SIZE 32
-#define BODY_SIZE 4096
+#define BODY_SIZE 409600
 
 int msgs_resp(int client_sock, char* buf, int readRet);
-int msg_resp(int client_sock, char* buf, int readRet, Request *request);
+int msg_resp(int client_sock, char* buf, int readRet, Request *request, char* post_content);
 
 
 int msgResp_400(int client_sock);
@@ -39,6 +39,6 @@ int msgResp_505(int client_sock);
 
 int msgResp_ECHO(int client_sock, char* buf, int readRet, Request * request);
 int msgResp_GET(int client_sock, Request* request);
-int msgResp_POST(int client_sock, Request* request);
+int msgResp_POST(int client_sock, Request* request, char* post_content);
 int msgResp_HEAD(int client_sock, Request* request);
 #endif

@@ -18,5 +18,9 @@ void get_fileExtension(char* fileExtention, const char *filePath);
 void get_lastModified(char* last_modified, const char* filePath);
 void get_connectionType(char* connection_type, Request * request);
 void get_dateStamp();
+int is_static(char* filePath);
+
+
+
 
 #endif

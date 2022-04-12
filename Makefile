@@ -4,7 +4,7 @@ OBJ_DIR := obj
 SRC := $(wildcard $(SRC_DIR)/*.c)
 # all objects
 OBJ := $(OBJ_DIR)/y.tab.o $(OBJ_DIR)/lex.yy.o $(OBJ_DIR)/parse.o $(OBJ_DIR)/example.o
-OBJ2 := $(OBJ_DIR)/liso_server.o $(OBJ_DIR)/parse.o $(OBJ_DIR)/y.tab.o $(OBJ_DIR)/lex.yy.o  $(OBJ_DIR)/utils.o $(OBJ_DIR)/msg_response.o $(OBJ_DIR)/log.o
+OBJ2 := $(OBJ_DIR)/liso_server.o $(OBJ_DIR)/parse.o $(OBJ_DIR)/y.tab.o $(OBJ_DIR)/lex.yy.o  $(OBJ_DIR)/utils.o $(OBJ_DIR)/msg_response.o $(OBJ_DIR)/log.o $(OBJ_DIR)/cgi.o
 
 
 # all binaries

@@ -1,0 +1,252 @@
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:22:44 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:21:30 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:24:01 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:22:44 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:26:11 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:24:01 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:29:25 GMT
+Content-Length: 568
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:26:11 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : </p>
+            <p>Your password is : </p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:29:25 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:26:11 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:29:35 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:29:25 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:30:24 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:29:35 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:38:52 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:30:24 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+
+successfully got here!
+HTTP/1.1 200 OK
+Server: Liso/1.0
+Date: Mon, 11 Apr 2022 14:41:18 GMT
+Content-Length: 574
+Content-Type: text/html
+Last-Modified: Mon, 11 Apr 2022 14:38:52 GMT
+Connection: Keep-alive
+
+<!DOCTYPE html> 
+<html xml:lang="en" lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <title>Liso the Friendly Web Server</title>
+        <link rel="stylesheet" type="text/css" href="style.css" /> 
+    </head>
+
+    <body>
+        <div id="page">
+            <img src="images/liso_header.png" alt="Liso the Friendly Web Server"></img>
+            <p>Your name is : 123</p>
+            <p>Your password is : 123</p>
+            <p>Welcome!</p>
+        </div>
+    </body>
+
+</html>
+

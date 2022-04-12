@@ -69,7 +69,9 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
-    fd_set readfds, allfds;
+
+
+    fd_set readfds, allfds; 
     int maxfd;
     int clients[FD_SETSIZE];
     int counter_max = -1, counter;
@@ -94,8 +96,11 @@ int main(int argc, char* argv[])
         printf("\n\n-------------Start to check&select-------------\n");
         readfds = allfds;
         ready_fd_num = select(maxfd + 1, &readfds, NULL, NULL, NULL);
-        if(ready_fd_num < 0)
+        if (ready_fd_num == 0)
         {
+            continue;
+        }
+        if(ready_fd_num < 0){
             fprintf(stderr, "Error in select.\n");
             return EXIT_FAILURE;
         }
@@ -128,15 +133,15 @@ int main(int argc, char* argv[])
             }
 
             FD_SET(client_sock, &allfds);
-            
+
             if (client_sock > maxfd)
                 maxfd = client_sock;
             if (counter > counter_max)
                 counter_max = counter;
-            // if (--ready_fd_num == 0)
-            //     continue;
-            continue;
+            if (--ready_fd_num == 0)
+                continue;
         }
+
         printf("-------------Start to respond-----------\n");
         for(counter = 0; counter <= counter_max; counter++){
             
@@ -144,11 +149,10 @@ int main(int argc, char* argv[])
             if (client_sock < 0)   
                 continue;
             if (FD_ISSET(client_sock, &readfds)){
-
-                readret = recv(client_sock, buf, BUF_SIZE, 0); 
+                readret = read(client_sock, buf, BUF_SIZE); 
                 printf("the client %d 's readret is %zd\n", client_sock, readret);
-                if (readret < 0)
-                {
+                // printf("%s\n", buf);
+                if (readret < 0){
                     fprintf(stderr, "Error reading from socket.\n");
                 }
                 else if (readret == 0)
@@ -180,4 +184,3 @@ int main(int argc, char* argv[])
 
     return EXIT_SUCCESS;
 }
-

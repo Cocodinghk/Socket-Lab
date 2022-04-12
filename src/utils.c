@@ -30,6 +30,7 @@ void get_contentType(char* content_type, const char* filePath){
     else if (!strcmp(fileExtension, "jpeg")) strcpy(content_type, "image/jpeg");
     else if (!strcmp(fileExtension, "css")) strcpy(content_type, "text/css");
     else if (!strcmp(fileExtension, "png")) strcpy(content_type, "image/png");
+    else if (!strcmp(fileExtension, "js")) strcpy(content_type, "application/x-javascript");
     else strcpy(content_type, "application/octet-stream");
 
 }
@@ -102,3 +103,12 @@ int get_state_code_type(char* state_code){
     }
     else return NOTIMPLEMENTED;
 }
+
+
+int is_static(char* filePath){
+
+
+    
+}
+
+
