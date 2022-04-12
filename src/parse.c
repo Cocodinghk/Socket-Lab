@@ -3,7 +3,7 @@
 /**
 * Given a char buffer returns the parsed request headers
 */
-#define BUF_SIZE 81920
+
 extern void yyrestart(FILE *);
 Requests * parse(char *buffer, int size, int socketFd) {
   //Differant states in the state machine

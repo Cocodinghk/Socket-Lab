@@ -1,0 +1,27 @@
+#form{
+    margin: 0 auto;
+    height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.box{
+    display: flex;
+}
+
+.tip
+{
+    width: 80px;
+}
+.name, .password{
+    width: 200px;
+}
+
+.button{
+    width: 120px;
+    height: 30px;
+
+}

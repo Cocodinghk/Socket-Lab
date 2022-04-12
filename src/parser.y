@@ -267,10 +267,11 @@ request: request_line request_headers t_crlf{
 
 requests : requests request{
 	YPRINTF("parsing_requests: Matched Success.\n");
-// 	printf("1. Requests++!\n");
+	// printf("1. Requests++!\n");
 };
 |request{
 	YPRINTF("parsing_requests: Matched Success.\n");
+	// printf("2. Requests++!\n");
 };
 
 requests_ : requests t_crlf{

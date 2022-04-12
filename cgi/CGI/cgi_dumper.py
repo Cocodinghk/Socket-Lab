@@ -13,10 +13,10 @@
 import sys
 from os import environ
 
-print 'Hello world, this is a simple CGI example.'
+print ('Hello world, this is a simple CGI example.')
 
 for key in environ:
     value = environ[key]
-    print "'%s' : '%s'" % (key, value)
+    print( "'%s' : '%s'" % (key, value))
 
-print "my stdin: '%s'" % (sys.stdin.read())
+print ("my stdin: '%s'" % (sys.stdin.read()))

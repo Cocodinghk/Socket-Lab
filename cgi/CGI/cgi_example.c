@@ -85,10 +85,10 @@ interpreter).\n");
         case EISDIR:
             fprintf(stderr, "An ELF interpreter was a directory.\n");
             return;
-        case ELIBBAD:
-            fprintf(stderr, "An ELF interpreter was not in a recognised \
-format.\n");
-            return;
+//         case ELIBBAD:
+//             fprintf(stderr, "An ELF interpreter was not in a recognised \
+// format.\n");
+//             return;
         case ELOOP:
             fprintf(stderr, "Too many symbolic links were encountered in \
 resolving filename or the name of a script \
